@@ -3,6 +3,7 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 img {
@@ -11,11 +12,12 @@ img {
 
 #mainGrid{
     display: grid;
-    grid-template-columns: 1fr 8fr;
+    grid-template-columns: 1.3fr 8fr;
 }
 
 #sidebar{
     grid-row: 1/10;
+
 }
 
 #secGrid{
@@ -67,4 +69,28 @@ img {
 
 #sidebar{
     background-color: rgb(64, 201, 243);
+    font-size: larger;
 }
+
+ul{
+    padding-top: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo img{
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+
+
