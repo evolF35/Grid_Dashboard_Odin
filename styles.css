@@ -74,21 +74,50 @@ img {
 
 ul{
     padding-top: 20px;
+    margin-left: -20px;
+    
 }
 
 ul li {
     list-style: none;
+    padding: 4px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li a{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 22px;
+    align-items: center;
+}
+
+
 
 .logo{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .logo img{
     justify-self: center;
     align-self: center;
 }
+
+.logo p{
+    justify-self: center;
+    align-self: center;
+    font-size: 1.8vw;
+    padding-right: 10px;
+}
+
+
 
 
 
