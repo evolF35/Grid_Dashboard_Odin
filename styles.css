@@ -32,13 +32,9 @@ img {
 
 .tophead{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 
-.search{
-    display: grid;
-    grid-template-columns: 1fr 7fr;
-}
 
 .notifications{
     display: grid;
@@ -117,6 +113,33 @@ li a{
     padding-right: 10px;
 }
 
+/************* after sidebar done ****************/
+
+#header {
+    background-color: antiquewhite;
+}
+
+
+form {
+    margin-top: 17px;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+form svg{
+    justify-self: flex-end;
+    max-width: 3vw;
+    min-width: 30px;
+    align-self: center;
+
+}
+
+#query {
+    border-radius: 25px;
+    padding: 20px;
+    height: 30px;
+    font-size: 20px;
+}
 
 
 
