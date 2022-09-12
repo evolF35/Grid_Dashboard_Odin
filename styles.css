@@ -27,7 +27,7 @@ img {
 
 #header{
     display: grid;
-    grid-template-rows: .1fr 1fr;
+    grid-template-rows: .5fr 1fr;
 }
 
 .tophead{
@@ -40,6 +40,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
 }
 
 .bottomhead{
@@ -49,7 +51,7 @@ img {
 
 .profile {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .3fr 1fr;
 }
 
 #contentGrid{
@@ -142,10 +144,6 @@ form svg{
     font-size: 20px;
 }
 
-.notifications{
-
-}
-
 .notifications img, .notifications p{
     justify-self: flex-end;
 }
@@ -155,8 +153,25 @@ form svg{
 }
 
 
+.profile-pic{
+    width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+}
 
+.bigger-ProfilePic{
 
+        width: 100px;
+        min-height: 100px;
+        border-radius: 50%;
+        align-self: flex-start;
+        justify-self: center;
+    }
 
+.ENS{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -10px;
+}
 
 
