@@ -8,3 +8,63 @@ body{
 img {
     max-height: 23px;
 }
+
+#mainGrid{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+#sidebar{
+    grid-row: 1/10;
+}
+
+#secGrid{
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+#header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.tophead{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.search{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+
+.notifications{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+
+.bottomhead{
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#contentGrid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#Trending{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+
+#sidebar{
+    background-color: rgb(64, 201, 243);
+}
