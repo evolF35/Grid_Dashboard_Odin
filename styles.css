@@ -194,6 +194,10 @@ button {
 
 /************************/
 
+#Projects{
+    margin-right: 5px;
+}
+
 .proj_title{
     font-size: 20px;
     margin-left: 5px;
@@ -205,6 +209,7 @@ button {
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: 10px;
     grid-auto-rows: auto;
+
 
 }
 
