@@ -200,6 +200,7 @@ button {
 
 .proj_title{
     font-size: 20px;
+    font-weight: bold;
     margin-left: 5px;
     margin-bottom: -5px;
 }
@@ -234,4 +235,35 @@ button {
 .share{
     display: flex;
     justify-content: end;
+}
+
+
+.sidebar_title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.newsTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.news{/*
+    border: 4px solid navy;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+*/
+    border-bottom: 2px solid black;
+
+} 
+
+
+.DAO_News{
+    border: 4px solid navy;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
 }
